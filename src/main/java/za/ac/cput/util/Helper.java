@@ -12,5 +12,9 @@ public class Helper {
     public static String generateId(){
         return UUID.randomUUID().toString();
     }
+
+    public static boolean isArrayNullOrEmpty(byte[] array) {
+        return array == null || array.length == 0;
+    }
 }
 
